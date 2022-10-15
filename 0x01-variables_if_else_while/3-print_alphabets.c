@@ -19,8 +19,7 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alphabetic[i]);
-	}
-	
+	}	
 	for (i = 0; i < 26; i++)
 	{
 		putchar(upperCase[i]);
