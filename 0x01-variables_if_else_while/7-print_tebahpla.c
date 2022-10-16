@@ -7,6 +7,7 @@
 int main(void)
 {
 	int i;
+
 	i = 122;
 	while (i > 96)
 	{
