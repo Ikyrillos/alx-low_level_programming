@@ -1,15 +1,17 @@
+#include "main.h"
+
 /**
- * main - Prints _putchar as a message.
- *
- * Return: 0 nno errors
-*/
+ *  * print_alphabet - Prints the alphabet in lowercase.
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 void print_alphabet(void)
 {
-	int n;
+		int i;
 
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar(n);
-	}
-	_putchar('\n');
+			for (i = 97; i <= 122; i++)
+					{
+								_putchar(i);
+									}
+				_putchar('\n');
 }
