@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 /**
  * main - Prints _putchar as a message.
@@ -13,8 +12,8 @@ int main(void)
 	length = sizeof(str) / sizeof(int);
 	for (count = 0; count < length; count++)
 	{
-		putchar(str[count]);
+		_putchar(str[count]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
