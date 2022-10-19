@@ -1,4 +1,4 @@
-#include "main.h"
+#define MAIN_C
 
 /**
  * print_alphabet: a function that prints the alphabets
