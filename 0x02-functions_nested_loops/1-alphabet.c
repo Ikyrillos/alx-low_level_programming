@@ -1,17 +1,15 @@
-#define MAIN_C
-
 /**
- * print_alphabet: a function that prints the alphabets
+ * main - Prints _putchar as a message.
  *
- * Return: Always 0 (Succes)
- */
+ * Return: 0 nno errors
+*/
 void print_alphabet(void)
 {
-	int cr;
+	int n;
 
-	for (cr = 'a'; cr <= 'z'; cr++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		_putchar(cr);
+		_putchar(n);
 	}
 	_putchar('\n');
 }
